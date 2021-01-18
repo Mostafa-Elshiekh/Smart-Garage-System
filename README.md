@@ -5,13 +5,13 @@
 * > 1- There is a PIR sensor 📼 at the entrance and exit gate ,if a car approaches it, it will 
 sense the infrared signal radiation, Signal is sent to the microcontroller that has a car at the 
 entrance gate, then the microcontroller checks the number of cars 🚗 inside the garage (because the
-garage capacity is only 3 cars) If an empty space is found, it will send a signal to serve motor⏲, turn at + 90 °
+garage capacity is only 3 cars) If an empty space is found, it will send a signal to servo motor⏲ rotates by +90 °
 and raise it ↖ ,the metal barrier that closed the road 🛣 it  does the 2sec Delay ⏳ until the car gets in
-completely and turns back at an  angle of -90 ° ↘ and closes ,The way 🔒 and all the cases are printed on the lcd
+completely and turns back at an angle of -90 ° ↘ and closes The way 🔒 and all the cases are printed on the lcd
 and the number of cars inside the garage and whether entry is available or not By the number of cars inside.
 
-* > 2- In case there is no car The entry or exit area of ​​the sensor has a low signal for the microcontroller, so no 
-cars will be printed "car number inside equal ... " ,also, permissibility of entry is printed if the number of cars inside is 
+* > 2- In case there is no car The entry or exit area of ​​the sensor has a low signal for the microcontroller,so there are no cars
+,then will be printed "car number inside equal ... " ,also, permissibility of entry is printed if the number of cars inside is 
 less than 3, but if the number inside is 3 cars, then it is printed 
   **"It is not allowed to enter the garage is full "**
   **" Max number of car is only three cars "** 🚫.
