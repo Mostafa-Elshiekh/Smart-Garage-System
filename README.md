@@ -25,9 +25,9 @@ and closes the road, and the lcd displays the new number of cars inside the gara
 ###  *In addition, I simulate the entry and exit of cars through 3 LEDs entering a car means LED lighting, and leaving the car means turning off the LED*
 
   *  ### The components used for the interface with the ATmega AVR 32 microcontroller
-     > 1- PIR Passive infrared sensor   📼
-     > 2- LCD LM32   🖥️
-     > 3- Servo motor  
-     > 4- logic state  
-     > 5- Led   💡
+     * > 1- PIR Passive infrared sensor 📼
+     * > 2- LCD LM32   🖥️
+     * > 3- Servo motor  
+     * > 4- logic state  
+     * > 5- Led   💡
      
